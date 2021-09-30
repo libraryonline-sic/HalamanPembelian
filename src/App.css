@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color:#C0D8E0 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kontener {
+  width: 450px;
+  height: 505px;
+  margin-left: 63%;
+  border-radius: 4px;
+  margin-top: 8px;
+  position: fixed;
+  background-color: white;
+}
+
+.container {
+  flex-direction:row ;
+  background-color: #264653;
+  border-radius: 4px;
+  width: 450px;
+  height: 50px;
+  position: fixed;
+  margin-left: 63%;
+  align-items: center;
+  row-gap: 30px;
+  margin-top: 39%;
+}
+
+.bukupilihan {
+  width: 200px;
+  height: 361px;
+  position: fixed;
+  margin-left: 20%;
+  margin-top: 8%;
+}
+.leftside {
+  flex-direction: row;
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+.harga {
+  font-size: 20px;
+  background-color: none;
+  height: 2;
+  overflow: hidden;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.001);
+  left: 5px;
+}
+.isipopup {
+  align-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.ketbaca,
+.judulbuku,
+.isbn,
+.genre,
+.jenisbacaan,
+.penerbit,
+.sinopsis,
+.isisinopsis {
+  align-content: space-around;
+  background-color: white;
+  padding-left: 5px;
+  font-family: 'roboto',sans-serif;
+}
+
+.ketbaca {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  color:black;
+  border-width: 1;
+  border-bottom-color: #264653;
+  border-top-color:rgba(0, 0, 0, 0.001) ;
+  border-right-color: rgba(0, 0, 0, 0.001);
+  border-left-color: rgba(0, 0, 0, 0.001);
+  border-style: solid;
+}
+
+.judulbuku {
+  padding-top: 20px;
+  font-size: 20px;
+
+}
+
+.isbn,
+.genre,
+.jenisbacaan,
+.penerbit {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.sinopsis {
+  padding-top: 40px;
+  font-size: 20px;
+  border-width: 1;
+  border-bottom-color: #264653;
+  border-top-color:rgba(0, 0, 0, 0.001) ;
+  border-right-color: rgba(0, 0, 0, 0.001);
+  border-left-color: rgba(0, 0, 0, 0.001);
+  border-style: solid;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.isisinopsis{
+  padding-top: 10px;
+  font-size: 20px;
+}
